@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TaskerData sr="" dvi="1" tv="6.3.3">
+	<Project sr="proj0" ve="2">
+		<cdate>1723166400</cdate>
+		<name>Smartes_Submitter</name>
+		<pri>100</pri>
+		<Tasks>
+			<Task sr="task0">
+				<cdate>1723166401</cdate>
+				<edate>1723166401</edate>
+				<id>1</id>
+				<name>Smartes Submitter</name>
+				<pri>10</pri>
+				<Action sr="act0" ve="7">
+					<code>547</code>
+					<Str sr="arg0" ve="3">%SPOTIFY</Str>
+					<Str sr="arg1" ve="3">Paste your Spotify track link</Str>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+					<Int sr="arg4" val="0"/>
+				</Action>
+				<Action sr="act1" ve="7">
+					<code>547</code>
+					<Str sr="arg0" ve="3">%SPOTIFY</Str>
+					<Str sr="arg1" ve="3">%SPOTIFY</Str>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+					<Int sr="arg4" val="0"/>
+				</Action>
+				<Action sr="act2" ve="7">
+					<code>111</code>
+					<Str sr="arg0" ve="3">%SPOTIFY</Str>
+				</Action>
+				<!-- Open DailyPlaylists -->
+				<Action sr="act3" ve="7">
+					<code>551</code>
+					<Str sr="arg0" ve="3">https://dailyplaylists.com/submit</Str>
+				</Action>
+				<Action sr="act4" ve="7">
+					<code>31</code>
+					<Int sr="arg0" val="2500"/>
+				</Action>
+				<!-- AutoInput: focus first input -->
+				<Action sr="act5" ve="7">
+					<code>130</code>
+					<Bundle sr="arg0">
+						<Vals sr="val">
+							<com.twofortyfouram.locale.intent.extra.BLURB>Focus first input</com.twofortyfouram.locale.intent.extra.BLURB>
+							<ai_action>UI ACTION</ai_action>
+							<ai_action_type>click</ai_action_type>
+							<ai_field_type>class</ai_field_type>
+							<ai_field_value>android.widget.EditText</ai_field_value>
+							<ai_match_index>0</ai_match_index>
+						</Vals>
+						<StringArray sr="keys">
+							<com.twofortyfouram.locale.intent.extra.BLURB/>
+							<ai_action/>
+							<ai_action_type/>
+							<ai_field_type/>
+							<ai_field_value/>
+							<ai_match_index/>
+						</StringArray>
+					</Bundle>
+					<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+				</Action>
+				<!-- AutoInput: paste clipboard -->
+				<Action sr="act6" ve="7">
+					<code>130</code>
+					<Bundle sr="arg0">
+						<Vals sr="val">
+							<com.twofortyfouram.locale.intent.extra.BLURB>Paste clipboard</com.twofortyfouram.locale.intent.extra.BLURB>
+							<ai_action>TEXT</ai_action>
+							<ai_text_action>paste</ai_text_action>
+						</Vals>
+						<StringArray sr="keys">
+							<com.twofortyfouram.locale.intent.extra.BLURB/>
+							<ai_action/>
+							<ai_text_action/>
+						</StringArray>
+					</Bundle>
+					<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+				</Action>
+
+				<!-- Soundplate -->
+				<Action sr="act7" ve="7">
+					<code>551</code>
+					<Str sr="arg0" ve="3">https://soundplate.com/spotify-playlist-submission/</Str>
+				</Action>
+				<Action sr="act8" ve="7">
+					<code>31</code>
+					<Int sr="arg0" val="2500"/>
+				</Action>
+				<Action sr="act9" ve="7">
+					<code>130</code>
+					<Bundle sr="arg0">
+						<Vals sr="val">
+							<com.twofortyfouram.locale.intent.extra.BLURB>Focus first input</com.twofortyfouram.locale.intent.extra.BLURB>
+							<ai_action>UI ACTION</ai_action>
+							<ai_action_type>click</ai_action_type>
+							<ai_field_type>class</ai_field_type>
+							<ai_field_value>android.widget.EditText</ai_field_value>
+							<ai_match_index>0</ai_match_index>
+						</Vals>
+						<StringArray sr="keys">
+							<com.twofortyfouram.locale.intent.extra.BLURB/>
+							<ai_action/>
+							<ai_action_type/>
+							<ai_field_type/>
+							<ai_field_value/>
+							<ai_match_index/>
+						</StringArray>
+					</Bundle>
+					<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+				</Action>
+				<Action sr="act10" ve="7">
+					<code>130</code>
+					<Bundle sr="arg0">
+						<Vals sr="val">
+							<com.twofortyfouram.locale.intent.extra.BLURB>Paste clipboard</com.twofortyfouram.locale.intent.extra.BLURB>
+							<ai_action>TEXT</ai_action>
+							<ai_text_action>paste</ai_text_action>
+						</Vals>
+						<StringArray sr="keys">
+							<com.twofortyfouram.locale.intent.extra.BLURB/>
+							<ai_action/>
+							<ai_text_action/>
+						</StringArray>
+					</Bundle>
+					<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+				</Action>
+
+				<!-- Indiemono -->
+				<Action sr="act11" ve="7">
+					<code>551</code>
+					<Str sr="arg0" ve="3">https://indiemono.com/spotify-playlist-submission/</Str>
+				</Action>
+				<Action sr="act12" ve="7">
+					<code>31</</code>
+					<Int sr="arg0" val="2500"/>
+				</Action>
+				<Action sr="act13" ve="7">
+					<code>130</code>
+					<Bundle sr="arg0">
+						<Vals sr="val">
+							<com.twofortyfouram.locale.intent.extra.BLURB>Focus first input</com.twofortyfouram.locale.intent.extra.BLURB>
+							<ai_action>UI ACTION</ai_action>
+							<ai_action_type>click</ai_action_type>
+							<ai_field_type>class</ai_field_type>
+							<ai_field_value>android.widget.EditText</ai_field_value>
+							<ai_match_index>0</ai_match_index>
+						</Vals>
+						<StringArray sr="keys">
+							<com.twofortyfouram.locale.intent.extra.BLURB/>
+							<ai_action/>
+							<ai_action_type/>
+							<ai_field_type/>
+							<ai_field_value/>
+							<ai_match_index/>
+						</StringArray>
+					</Bundle>
+					<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+				</Action>
+				<Action sr="act14" ve="7">
+					<code>130</code>
+					<Bundle sr="arg0">
+						<Vals sr="val">
+							<com.twofortyfouram.locale.intent.extra.BLURB>Paste clipboard</com.twofortyfouram.locale.intent.extra.BLURB>
+							<ai_action>TEXT</ai_action>
+							<ai_text_action>paste</ai_text_action>
+						</Vals>
+						<StringArray sr="keys">
+							<com.twofortyfouram.locale.intent.extra.BLURB/>
+							<ai_action/>
+							<ai_text_action/>
+						</StringArray>
+					</Bundle>
+					<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+				</Action>
+
+				<!-- Vibrate to notify if user action needed -->
+				<Action sr="act15" ve="7">
+					<code>188</code>
+					<Int sr="arg0" val="300"/>
+				</Action>
+			</Task>
+		</Tasks>
+	</Project>
+</TaskerData>
